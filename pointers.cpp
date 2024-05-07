@@ -31,7 +31,7 @@ int dynamicAllocation(){
     for(int i =0; i<5;i++){
         cout<<p[i]<<endl;
     }
-    delete  []p;                     // Free the allocated memory by calling delete[] operator in C++ language.
+    delete  []p;   // Free the allocated memory by calling delete[] operator in C++ language.
     return 0;
 }
 
